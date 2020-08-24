@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li {
+  padding: 0 10px;
+}
+
+nav li a {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.carousel-indicators li {
+  width: 45px;
+  height: 1px;
+  background: -webkit-gradient(linear, right top, left top, from(#FFC420), to(#FF9C35));
+  background: linear-gradient(to left, #FFC420, #FF9C35);
+  color: white;
+  border-radius: 10px;
+}
+
+.carousel-indicators a span {
+  color: #FF9C35;
+}
+
+.bx {
+  -webkit-box-shadow: 5px 5px 10px lightgrey !important;
+          box-shadow: 5px 5px 10px lightgrey !important;
+  border-radius: 5px;
+}
+
+.br-1 {
+  border-radius: 10px 2px 10px 2px;
+}
+
+.br-2 {
+  border-radius: 2px 10px 2px 10px;
+}
+
+.cat {
+  margin: 0 auto;
+}
+
+.cat .line {
+  width: 120px;
+  height: 9px;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, right top, left top, from(#FFC420), to(#FF9C35));
+  background: linear-gradient(to left, #FFC420, #FF9C35);
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.see a {
+  color: #FF9C35 !important;
+}
+/*# sourceMappingURL=style.css.map */
